@@ -1,0 +1,169 @@
+/* Text Styles */
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-weight: 300;
+	letter-spacing: 4px;
+}
+
+h2 {
+	font-weight: 300;
+	letter-spacing: 4px;
+	color: #52b5e3;
+
+}
+
+h3 {
+	font-weight: 200;
+	letter-spacing: 4px;
+}
+
+h6 {
+	color: #fff;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+body {
+	text-align: center;
+}
+
+.paragraph {
+	text-align: left;
+}
+
+
+#hr_line {
+	background-color: black;
+	height: 1px;
+	margin: 20px 40px;
+}
+
+#page_background {
+	background-image: url("../img/design_logo.png");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.top-bar .title-area li a:hover {
+	color: #52b5e3;
+}
+
+.reveal-modal {
+	background-color: rgba(255,255,255,.9);
+}
+
+/* Opening Page */
+
+#opening_page {
+	height: 100vh;
+	background-image: url("../img/tacos_web.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#opening_content {
+	margin-top: 200px;
+}
+
+/* About */
+
+#about {
+	padding: 80px 60px;
+}
+
+#portrait {
+	border-radius: 10px;
+	border: 1px black;
+	margin-bottom: 20px;
+}
+
+#introduction {
+	margin: 100px 0px;
+}
+
+
+#photo_banner {
+	background-image: url("../img/latte_web.jpg");
+	background-size: cover;
+	min-height: 600px;
+	overflow: hidden;
+}
+
+#photo_banner h2 {
+	float: right;
+	margin-right: 20px;
+	position: relative;
+	top: 500px;
+}
+
+#login_box {
+	background-color: rgba(255,255,255,.8);
+	padding: 20px 10px;
+	margin: 80px 0px;
+}
+
+.accordion {
+  margin-bottom: 80px;
+  margin-top: 80px; }
+  .accordion:before, .accordion:after {
+    content: " ";
+    display: table; }
+  .accordion:after {
+    clear: both; }
+  .accordion .accordion-navigation, .accordion dd {
+    display: block;
+    margin-bottom: 0 !important; }
+    .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+      background: #e8e8e8; }
+    .accordion .accordion-navigation > a, .accordion dd > a {
+      background: rgba(255,255,255,.7);
+      color: #222222;
+      padding: 1rem;
+      display: block;
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 1rem; }
+      .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+        background: #e3e3e3; }
+    .accordion .accordion-navigation > .content, .accordion dd > .content {
+      display: none;
+      padding: 0.9375rem; }
+      .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+        display: block;
+        background: rgba(255,255,255,.9); }
+
+.lighten {
+	background-color: rgba(255,255,255,.6);
+	height: 100%;
+}
+
+.darken {
+	background-color: rgba(30,30,30,.9);
+	height: 100%;
+}
+
+#contact {
+	margin: 80px 0px;
+}
+
+#getintouch {
+	margin: 80px 0px;
+}
+
+#footer {
+	height: 100px;
+	background-color: #272727;
+	padding: 30px 0px;
+}
+
+#footer ul {
+	display: inline-block;
+	margin: 0 auto;
+}
